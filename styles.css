@@ -1,0 +1,121 @@
+body {
+    background-color: #1e1e1e; /* 어두운 배경색 */
+    color: #dcdcdc; /* 기본 텍스트 색상 */
+    font-family: monospace; /* 모노스페이스 폰트 */
+    padding: 20px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.kernelLogs {
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kernelLogs .filename {
+    width: 6%;
+    border-right: 1px solid white;
+    margin-right: 1rem;
+}
+
+.kernelLogs .log {
+    margin-left: 1rem;
+    width: 85%;
+}
+
+/* 커스터마이즈된 스크롤바 스타일 */
+.kernelLogs::-webkit-scrollbar {
+    width: 12px;
+}
+
+.kernelLogs::-webkit-scrollbar-track {
+    background: #2e2e2e; /* 스크롤바 트랙 배경색 */
+    border-radius: 5px;
+}
+
+.kernelLogs::-webkit-scrollbar-thumb {
+    background-color: #555; /* 스크롤바 색상 */
+    border-radius: 5px;
+    border: 2px solid #2e2e2e; /* 스크롤바 테두리 및 공간 */
+}
+
+.kernelLogs::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* 스크롤바 색상 (호버 시) */
+}
+.summarizeLogs {
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    margin-top: 20px;
+}
+
+.log-entry {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.fatal {
+    color: red;
+}
+
+.error {
+    color: darkred;
+}
+
+.warning {
+    color: orange;
+}
+
+.info {
+    color: lightblue;
+}
+
+.debug {
+    color: lightgreen;
+}
+
+input[type="file"] {
+    background-color: #444;
+    color: #dcdcdc;
+    border: 1px solid #666;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #666;
+    color: #dcdcdc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #888;
+}
+
+button {
+    background-color: #444;
+    color: #dcdcdc;
+    border: 1px solid #666;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #888;
+}

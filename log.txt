@@ -1,0 +1,20 @@
+Jul 03 10:15:32 host1 kernel: FATAL: Booting Linux kernel version 5.4.0
+Aug 12 09:22:48 host7 kernel: WARNING: Disk usage at 95%
+Sep 15 14:03:57 host3 kernel: INFO: Network interface eth0 up
+Oct 18 18:11:42 host2 kernel: ERROR: Failed to start service nginx
+Nov 20 11:23:14 host5 kernel: DEBUG: Process 1234 started successfully
+Dec 23 05:34:09 host9 kernel: NOTICE: System clock synchronized
+Jan 10 02:48:51 host4 kernel: ALERT: High memory usage detected
+Feb 14 07:59:22 host6 kernel: INFO: User login from 192.168.1.10
+Mar 22 17:16:03 host8 kernel: CRITICAL: Kernel panic - not syncing
+Apr 25 13:20:45 host10 kernel: WARNING: Temperature threshold exceeded
+May 30 21:11:57 host2 kernel: DEBUG: USB device connected
+Jun 04 12:15:30 host5 kernel: NOTICE: File system mounted successfully
+Jul 07 16:07:12 host3 kernel: ERROR: I/O error on device sda1
+Aug 13 22:59:26 host9 kernel: ALERT: Unauthorized access attempt
+Sep 18 03:25:44 host6 kernel: FATAL: Unable to allocate memory
+Oct 19 08:32:15 host4 kernel: INFO: System shutdown initiated
+Nov 22 19:18:34 host7 kernel: WARNING: Swap space running low
+Dec 27 10:44:21 host1 kernel: ERROR: Failed to update package list
+Jan 31 15:27:59 host8 kernel: CRITICAL: CPU overtemperature
+Feb 04 23:55:06 host10 kernel: NOTICE: New network interface detected

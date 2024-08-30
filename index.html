@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P    JT03 - 로그데이터</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <input type="file" id="saveButton">
+        <!-- 버튼 추가 -->
+        <div>
+            <button id="allLogsButton">전체 로그 보기</button>
+            <button id="recentLogsButton">최근 10개 로그 보기</button>
+            <button id="summarizeLogsButton">로그 요약 보기</button>
+        </div>
+    </div>
+    <div class="kernelLogs"></div>
+    <div class="summarizeLogs"></div>
+
+    <script type="module" src="save_data.js"></script>
+</body>
+</html>
